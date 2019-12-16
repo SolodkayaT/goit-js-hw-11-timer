@@ -10,7 +10,6 @@ class CountdownTime {
 
   updateTime(day, hour, min, sec) {
     const timerId = this.selector.selector;
-    console.log(timerId);
     const days = document.querySelector(`${timerId} span[data-value="days"]`);
     const hours = document.querySelector(`${timerId} span[data-value="hours"]`);
     const minutes = document.querySelector(
